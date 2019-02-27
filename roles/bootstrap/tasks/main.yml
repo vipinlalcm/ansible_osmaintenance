@@ -1,0 +1,5 @@
+- name: Copying ssh key to destination server.
+  authorized_key:
+    user: itek
+    state: present
+    key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"

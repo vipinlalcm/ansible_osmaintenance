@@ -1,0 +1,12 @@
+git_token: WqhJy83CuSMR9LCdcPPH
+git_user: msclone
+becomeusr: hlapps
+virt_env_path: /var/opt/hlapps
+app_dirs:
+  - apps
+  - data
+  - deployment
+  - log
+  - pid
+app_files:
+  - me.txt
