@@ -1,0 +1,28 @@
+- name: Collecting memory details.
+  script: scripts/report.sh
+  args:
+    executable: bash
+  register: output
+
+- name: Making customer directory
+  file:
+    path: "./{{ group_names[0] }}"
+    state: directory
+    force: yes
+
+- name: saving the output in localfile
+  copy:
+      content: "{{ output.stdout }}"
+      dest: "./{{ group_names[0] }}/{{inventory_hostname}}.txt"
+      force: yes
+
+- name: Fetching the output to local system
+  fetch:
+    dest: "./{{ group_names[0] }}/{{inventory_hostname}}.txt"
+    fail_on_missing: yes
+    flat: yes
+    src: "./{{ group_names[0] }}/{{inventory_hostname}}.txt"
+    validate_checksum: yes
+
+#- name: saving details locally.
+#  shell: echo "{{ output.stdout }}" > "./{{ group_names[0] }}/{{inventory_hostname}}.txt"
