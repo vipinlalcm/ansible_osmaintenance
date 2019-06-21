@@ -1,7 +1,5 @@
-ansible_ssh_user: vipicm
+ansible_ssh_user: itek
 ansible_connection: ssh
 ansible_ssh_port: 22
 ansible_become: true
-ansible_sudo_user: vipicm
-ansible_sudo_pass: like@123+
-ansible_ssh_pass: like@123+
+ansible_sudo_user: itek

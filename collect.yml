@@ -1,4 +1,4 @@
-- hosts: REAL_anno_1991_AB
+- hosts: all
   become: True
   roles:
     - report
