@@ -2586,3 +2586,213 @@ no spacesin the section entry, and that there are no other invalid characters
 2019-06-21 20:31:43,469 p=28535 u=vipicm |  de-2539.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 2019-06-21 20:31:43,469 p=28535 u=vipicm |  de-2564.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 2019-06-21 20:31:43,469 p=28535 u=vipicm |  de-2565.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:02:13,322 p=5978 u=vipicm |   ____________
+< PLAY [all] >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:02:13,376 p=5978 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:02:37,801 p=5978 u=vipicm |  ok: [de-2564.d.ipeer.se]
+2019-06-24 19:02:38,700 p=5978 u=vipicm |  ok: [de-2201.d.ipeer.se]
+2019-06-24 19:02:46,133 p=5978 u=vipicm |  ok: [de-2200.d.ipeer.se]
+2019-06-24 19:02:46,304 p=5978 u=vipicm |  ok: [de-2539.d.ipeer.se]
+2019-06-24 19:02:50,308 p=5978 u=vipicm |  ok: [de-2565.d.ipeer.se]
+2019-06-24 19:02:59,196 p=5978 u=vipicm |  ok: [abouttime-ftp01.v.ipeer.se]
+2019-06-24 19:03:00,392 p=5978 u=vipicm |  ok: [de-1675.d.ipeer.se]
+2019-06-24 19:03:05,760 p=5978 u=vipicm |  ok: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-24 19:03:13,441 p=5978 u=vipicm |  ok: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-24 19:03:13,556 p=5978 u=vipicm |   ________________________________________________________
+< TASK [report : Runnig the resource collecting script.] >
+ --------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:03:31,613 p=5978 u=vipicm |  changed: [de-2565.d.ipeer.se]
+2019-06-24 19:03:31,985 p=5978 u=vipicm |  changed: [de-2200.d.ipeer.se]
+2019-06-24 19:03:32,266 p=5978 u=vipicm |  changed: [de-2564.d.ipeer.se]
+2019-06-24 19:03:32,400 p=5978 u=vipicm |  changed: [de-2201.d.ipeer.se]
+2019-06-24 19:03:35,164 p=5978 u=vipicm |  changed: [de-2539.d.ipeer.se]
+2019-06-24 19:03:50,051 p=5978 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-24 19:03:50,831 p=5978 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-24 19:03:54,335 p=5978 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-24 19:03:54,555 p=5978 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-24 19:03:54,708 p=5978 u=vipicm |   ______________________________________
+< TASK [report : Getting the HOSTNAME] >
+ --------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:04:12,246 p=5978 u=vipicm |  changed: [de-2564.d.ipeer.se]
+2019-06-24 19:04:12,411 p=5978 u=vipicm |  changed: [de-2565.d.ipeer.se]
+2019-06-24 19:04:13,248 p=5978 u=vipicm |  changed: [de-2201.d.ipeer.se]
+2019-06-24 19:04:13,492 p=5978 u=vipicm |  changed: [de-2200.d.ipeer.se]
+2019-06-24 19:04:16,452 p=5978 u=vipicm |  changed: [de-2539.d.ipeer.se]
+2019-06-24 19:04:29,840 p=5978 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-24 19:04:30,601 p=5978 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-24 19:04:35,013 p=5978 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-24 19:04:35,043 p=5978 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-24 19:04:35,193 p=5978 u=vipicm |   _____________________________________________________
+< TASK [report : Fetching the output to local system] >
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:04:52,483 p=5978 u=vipicm |  changed: [de-2564.d.ipeer.se]
+2019-06-24 19:04:52,833 p=5978 u=vipicm |  changed: [de-2565.d.ipeer.se]
+2019-06-24 19:04:53,430 p=5978 u=vipicm |  changed: [de-2200.d.ipeer.se]
+2019-06-24 19:04:53,736 p=5978 u=vipicm |  changed: [de-2201.d.ipeer.se]
+2019-06-24 19:04:57,736 p=5978 u=vipicm |  changed: [de-2539.d.ipeer.se]
+2019-06-24 19:05:10,259 p=5978 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-24 19:05:10,301 p=5978 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-24 19:05:14,032 p=5978 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-24 19:05:14,526 p=5978 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-24 19:05:14,584 p=5978 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:05:14,586 p=5978 u=vipicm |  abouttime-ftp01.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:05:14,586 p=5978 u=vipicm |  abouttime-tw-db1901.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:05:14,586 p=5978 u=vipicm |  abouttime-tw-web1901.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:05:14,586 p=5978 u=vipicm |  de-1675.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:05:14,587 p=5978 u=vipicm |  de-2200.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:05:14,587 p=5978 u=vipicm |  de-2201.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:05:14,587 p=5978 u=vipicm |  de-2539.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:05:14,588 p=5978 u=vipicm |  de-2564.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:05:14,588 p=5978 u=vipicm |  de-2565.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:07:49,919 p=6983 u=vipicm |   ____________
+< PLAY [all] >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:07:49,973 p=6983 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:08:11,789 p=6983 u=vipicm |  ok: [de-2564.d.ipeer.se]
+2019-06-24 19:08:14,044 p=6983 u=vipicm |  ok: [de-2565.d.ipeer.se]
+2019-06-24 19:08:14,552 p=6983 u=vipicm |  ok: [de-2201.d.ipeer.se]
+2019-06-24 19:08:14,568 p=6983 u=vipicm |  ok: [de-2200.d.ipeer.se]
+2019-06-24 19:08:22,553 p=6983 u=vipicm |  ok: [de-2539.d.ipeer.se]
+2019-06-24 19:08:34,788 p=6983 u=vipicm |  ok: [abouttime-ftp01.v.ipeer.se]
+2019-06-24 19:08:35,705 p=6983 u=vipicm |  ok: [de-1675.d.ipeer.se]
+2019-06-24 19:08:41,184 p=6983 u=vipicm |  ok: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-24 19:08:41,466 p=6983 u=vipicm |  ok: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-24 19:08:41,626 p=6983 u=vipicm |   ________________________________________________________
+< TASK [report : Runnig the resource collecting script.] >
+ --------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:08:58,554 p=6983 u=vipicm |  changed: [de-2564.d.ipeer.se]
+2019-06-24 19:08:59,435 p=6983 u=vipicm |  changed: [de-2565.d.ipeer.se]
+2019-06-24 19:08:59,556 p=6983 u=vipicm |  changed: [de-2200.d.ipeer.se]
+2019-06-24 19:09:00,048 p=6983 u=vipicm |  changed: [de-2201.d.ipeer.se]
+2019-06-24 19:09:02,907 p=6983 u=vipicm |  changed: [de-2539.d.ipeer.se]
+2019-06-24 19:09:17,606 p=6983 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-24 19:09:17,875 p=6983 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-24 19:09:21,111 p=6983 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-24 19:09:21,251 p=6983 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-24 19:09:21,409 p=6983 u=vipicm |   ______________________________________
+< TASK [report : Getting the HOSTNAME] >
+ --------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:09:38,763 p=6983 u=vipicm |  changed: [de-2564.d.ipeer.se]
+2019-06-24 19:09:39,791 p=6983 u=vipicm |  changed: [de-2201.d.ipeer.se]
+2019-06-24 19:09:40,241 p=6983 u=vipicm |  changed: [de-2200.d.ipeer.se]
+2019-06-24 19:09:43,154 p=6983 u=vipicm |  changed: [de-2539.d.ipeer.se]
+2019-06-24 19:09:44,094 p=6983 u=vipicm |  changed: [de-2565.d.ipeer.se]
+2019-06-24 19:09:57,137 p=6983 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-24 19:09:58,326 p=6983 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-24 19:10:00,774 p=6983 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-24 19:10:03,770 p=6983 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-24 19:10:03,924 p=6983 u=vipicm |   _____________________________________________________
+< TASK [report : Fetching the output to local system] >
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:10:20,803 p=6983 u=vipicm |  changed: [de-2564.d.ipeer.se]
+2019-06-24 19:10:21,334 p=6983 u=vipicm |  changed: [de-2565.d.ipeer.se]
+2019-06-24 19:10:22,538 p=6983 u=vipicm |  changed: [de-2201.d.ipeer.se]
+2019-06-24 19:10:23,254 p=6983 u=vipicm |  changed: [de-2200.d.ipeer.se]
+2019-06-24 19:10:25,167 p=6983 u=vipicm |  changed: [de-2539.d.ipeer.se]
+2019-06-24 19:10:38,571 p=6983 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-24 19:10:39,111 p=6983 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-24 19:10:43,104 p=6983 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-24 19:10:44,381 p=6983 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-24 19:10:44,456 p=6983 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-24 19:10:44,457 p=6983 u=vipicm |  abouttime-ftp01.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:10:44,458 p=6983 u=vipicm |  abouttime-tw-db1901.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:10:44,459 p=6983 u=vipicm |  abouttime-tw-web1901.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:10:44,459 p=6983 u=vipicm |  de-1675.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:10:44,459 p=6983 u=vipicm |  de-2200.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:10:44,459 p=6983 u=vipicm |  de-2201.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:10:44,459 p=6983 u=vipicm |  de-2539.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:10:44,460 p=6983 u=vipicm |  de-2564.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-24 19:10:44,460 p=6983 u=vipicm |  de-2565.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
