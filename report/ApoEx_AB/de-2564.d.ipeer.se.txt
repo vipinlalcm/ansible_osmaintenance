@@ -1,0 +1,25 @@
+
+======     OS Info        ======
+OS: Ubuntu 14.04.5 LTS
+Arch: x86_64
+Code name: trusty
+Hostname: de-2564
+
+161 Update(s) available to install. Please refer /tmp/updates.list for update info.
+
+======     CPU Information  ======
+No of CPU Core(s) : 16
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+cpu MHz		: 2397.232
+
+======     Memory Usage   ======
+Total Memory: 32066 MB
+Free Memory: 30567.8 MB
+Free Memory percentage: 95%
+
+Info: Memory usage on server de-2564 looks normal.
+
+======     Disk Usage     ======
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/dm-0       1.1T  434G  585G  43% /
+/dev/sda1       236M   70M  154M  32% /boot

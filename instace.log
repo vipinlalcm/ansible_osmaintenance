@@ -1716,3 +1716,873 @@ The offending line appears to be:
 
 
 2019-06-20 20:09:07,796 p=6474 u=vipicm |  localhost                  : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 17:11:56,925 p=13337 u=vipicm |   __________________________
+< PLAY [REAL_anno_1991_AB] >
+ --------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:11:57,033 p=13337 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:12:00,074 p=13337 u=vipicm |  ok: [localhost]
+2019-06-21 17:12:00,224 p=13337 u=vipicm |   ____________________________________________
+< TASK [report : Collecting memory details.] >
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:12:01,721 p=13337 u=vipicm |  fatal: [localhost]: FAILED! => {"changed": true, "msg": "non-zero return code", "rc": 2, "stderr": "Connection to localhost closed.\r\n", "stderr_lines": ["Connection to localhost closed."], "stdout": "/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 2: $'\\r': command not found\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 4: $'\\r': command not found\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 12: $'\\r': command not found\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 15: $'\\r': command not found\r\n\u001b[1m \u001b[35m ### Cygate Cloud - Linux Support Team - Server Audit Tool - Version: 1.0\r ### \u001b(B\u001b[0m\r\r\n\u001b[1m \u001b[35m ### Updated on: June 21, 2019\r ### \u001b(B\u001b[0m\r\r\n\u001b[1m \u001b[33m ### LinSA tool tested under Ubuntu and CentOS ### \u001b(B\u001b[0m\r\r\n\u001b[1m \u001b[33m ### Run LinSA tool at your own risk and we are not responsible for any misuse or misbehavior ### \u001b(B\u001b[0m\r\r\n\r\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 22: $'\\r': command not found\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 24: syntax error near unexpected token `$'{\\r''\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 24: `        BASIC_CHECK() {\r'\r\n", "stdout_lines": ["/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 2: $'\\r': command not found", "/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 4: $'\\r': command not found", "/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 12: $'\\r': command not found", "/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 15: $'\\r': command not found", "\u001b[1m \u001b[35m ### Cygate Cloud - Linux Support Team - Server Audit Tool - Version: 1.0", " ### \u001b(B\u001b[0m", "", "\u001b[1m \u001b[35m ### Updated on: June 21, 2019", " ### \u001b(B\u001b[0m", "", "\u001b[1m \u001b[33m ### LinSA tool tested under Ubuntu and CentOS ### \u001b(B\u001b[0m", "", "\u001b[1m \u001b[33m ### Run LinSA tool at your own risk and we are not responsible for any misuse or misbehavior ### \u001b(B\u001b[0m", "", "", "", "/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 22: $'\\r': command not found", "/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 24: syntax error near unexpected token `$'{\\r''", "/home/vipicm/.ansible/tmp/ansible-tmp-1561117320.36-72723901611387/report1.sh: line 24: `        BASIC_CHECK() {", "'"]}
+2019-06-21 17:12:01,789 p=13337 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:12:01,792 p=13337 u=vipicm |  localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-06-21 17:45:31,081 p=14539 u=vipicm |   __________________________
+< PLAY [REAL_anno_1991_AB] >
+ --------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:45:31,141 p=14539 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:45:34,073 p=14539 u=vipicm |  ok: [localhost]
+2019-06-21 17:45:34,214 p=14539 u=vipicm |   ____________________________________________
+< TASK [report : Collecting memory details.] >
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:45:35,646 p=14539 u=vipicm |  changed: [localhost]
+2019-06-21 17:45:35,850 p=14539 u=vipicm |   ___________________________________________
+< TASK [report : Making customer directory] >
+ -------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:45:37,656 p=14539 u=vipicm |  changed: [localhost]
+2019-06-21 17:45:37,817 p=14539 u=vipicm |   ________________________________________________
+< TASK [report : saving the output in localfile] >
+ ------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:45:40,960 p=14539 u=vipicm |  changed: [localhost]
+2019-06-21 17:45:41,116 p=14539 u=vipicm |   _____________________________________________________
+< TASK [report : Fetching the output to local system] >
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:45:42,822 p=14539 u=vipicm |  changed: [localhost]
+2019-06-21 17:45:42,900 p=14539 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 17:45:42,902 p=14539 u=vipicm |  localhost                  : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 19:53:16,071 p=22752 u=vipicm |   __________________________
+< PLAY [REAL_anno_1991_AB] >
+ --------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:53:16,124 p=22752 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:53:19,127 p=22752 u=vipicm |  ok: [localhost]
+2019-06-21 19:53:19,235 p=22752 u=vipicm |   ____________________________________________
+< TASK [report : Collecting memory details.] >
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:53:20,691 p=22752 u=vipicm |  fatal: [localhost]: FAILED! => {"changed": true, "msg": "non-zero return code", "rc": 1, "stderr": "Connection to localhost closed.\r\n", "stderr_lines": ["Connection to localhost closed."], "stdout": "/home/vipicm/.ansible/tmp/ansible-tmp-1561126999.25-86354503150563/report1.sh: line 13: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n\u001b[1m \u001b[31m Script /home/vipicm/.ansible/tmp/ansible-tmp-1561126999.25-86354503150563/report1.sh must be run as root.. \u001b(B\u001b[0m\r\n", "stdout_lines": ["/home/vipicm/.ansible/tmp/ansible-tmp-1561126999.25-86354503150563/report1.sh: line 13: /tmp/vipicm-VirtualBox.txt: Permission denied", "\u001b[1m \u001b[31m Script /home/vipicm/.ansible/tmp/ansible-tmp-1561126999.25-86354503150563/report1.sh must be run as root.. \u001b(B\u001b[0m"]}
+2019-06-21 19:53:20,748 p=22752 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:53:20,749 p=22752 u=vipicm |  localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-06-21 19:54:03,691 p=23145 u=vipicm |   __________________________
+< PLAY [REAL_anno_1991_AB] >
+ --------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:54:03,768 p=23145 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:54:06,801 p=23145 u=vipicm |  ok: [localhost]
+2019-06-21 19:54:06,952 p=23145 u=vipicm |   ____________________________________________
+< TASK [report : Collecting memory details.] >
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:54:10,396 p=23145 u=vipicm |  fatal: [localhost]: FAILED! => {"changed": true, "msg": "non-zero return code", "rc": 1, "stderr": "Connection to localhost closed.\r\n", "stderr_lines": ["Connection to localhost closed."], "stdout": "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 13: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 40: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 41: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 42: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 43: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 44: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 45: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 53: /tmp/updates.list: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 54: /tmp/updates.list: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 55: /tmp/updates.list: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 56: /tmp/updates.list: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 61: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 144: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 145: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 153: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 154: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 168: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 169: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 170: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 171: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 172: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 176: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 177: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 184: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 185: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 186: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 192: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 193: /tmp/vipicm-VirtualBox.txt: Permission denied\r\n", "stdout_lines": ["/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 13: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 40: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 41: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 42: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 43: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 44: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 45: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 53: /tmp/updates.list: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 54: /tmp/updates.list: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 55: /tmp/updates.list: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 56: /tmp/updates.list: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 61: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 144: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 145: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 153: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 154: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 168: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 169: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 170: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 171: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 172: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 176: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 177: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 184: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 185: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 186: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 192: /tmp/vipicm-VirtualBox.txt: Permission denied", "/home/vipicm/.ansible/tmp/ansible-tmp-1561127046.98-147380424361485/report1.sh: line 193: /tmp/vipicm-VirtualBox.txt: Permission denied"]}
+2019-06-21 19:54:10,443 p=23145 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:54:10,445 p=23145 u=vipicm |  localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-06-21 19:55:53,908 p=23629 u=vipicm |   __________________________
+< PLAY [REAL_anno_1991_AB] >
+ --------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:55:53,988 p=23629 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:55:57,026 p=23629 u=vipicm |  ok: [localhost]
+2019-06-21 19:55:57,172 p=23629 u=vipicm |   ____________________________________________
+< TASK [report : Collecting memory details.] >
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:56:00,700 p=23629 u=vipicm |  changed: [localhost]
+2019-06-21 19:56:00,928 p=23629 u=vipicm |   ______________________________________
+< TASK [report : Getting the HOSTNAME] >
+ --------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:56:02,695 p=23629 u=vipicm |  changed: [localhost]
+2019-06-21 19:56:02,851 p=23629 u=vipicm |   _____________________________________________________
+< TASK [report : Fetching the output to local system] >
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:56:04,535 p=23629 u=vipicm |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "file not found: /tmp/REAL_anno_1991_AB/.txt"}
+2019-06-21 19:56:04,597 p=23629 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:56:04,603 p=23629 u=vipicm |  localhost                  : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-06-21 19:56:34,429 p=24380 u=vipicm |   __________________________
+< PLAY [REAL_anno_1991_AB] >
+ --------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:56:34,500 p=24380 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:56:37,482 p=24380 u=vipicm |  ok: [localhost]
+2019-06-21 19:56:37,627 p=24380 u=vipicm |   ____________________________________________
+< TASK [report : Collecting memory details.] >
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:56:41,073 p=24380 u=vipicm |  changed: [localhost]
+2019-06-21 19:56:41,296 p=24380 u=vipicm |   ______________________________________
+< TASK [report : Getting the HOSTNAME] >
+ --------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:56:43,073 p=24380 u=vipicm |  changed: [localhost]
+2019-06-21 19:56:43,230 p=24380 u=vipicm |   _____________________________________________________
+< TASK [report : Fetching the output to local system] >
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:56:44,921 p=24380 u=vipicm |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "file not found: /tmp/.txt"}
+2019-06-21 19:56:44,984 p=24380 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 19:56:44,987 p=24380 u=vipicm |  localhost                  : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:02:48,352 p=25222 u=vipicm |   __________________________
+< PLAY [REAL_anno_1991_AB] >
+ --------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:02:48,421 p=25222 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:02:51,454 p=25222 u=vipicm |  ok: [localhost]
+2019-06-21 20:02:51,596 p=25222 u=vipicm |   ____________________________________________
+< TASK [report : Collecting memory details.] >
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:02:55,049 p=25222 u=vipicm |  changed: [localhost]
+2019-06-21 20:02:55,277 p=25222 u=vipicm |   ______________________________________
+< TASK [report : Getting the HOSTNAME] >
+ --------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:02:57,050 p=25222 u=vipicm |  changed: [localhost]
+2019-06-21 20:02:57,208 p=25222 u=vipicm |   _____________________________________________________
+< TASK [report : Fetching the output to local system] >
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:02:58,945 p=25222 u=vipicm |  changed: [localhost]
+2019-06-21 20:02:59,005 p=25222 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:02:59,008 p=25222 u=vipicm |  localhost                  : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:18:38,838 p=26593 u=vipicm |  ERROR! You must specify a playbook file to run
+2019-06-21 20:19:02,460 p=26602 u=vipicm |   ____________
+< PLAY [all] >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:19:02,529 p=26602 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:19:27,925 p=26602 u=vipicm |  ok: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:19:28,841 p=26602 u=vipicm |  ok: [de-2200.d.ipeer.se]
+2019-06-21 20:19:29,580 p=26602 u=vipicm |  ok: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:19:29,982 p=26602 u=vipicm |  ok: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:19:32,613 p=26602 u=vipicm |  ok: [de-1675.d.ipeer.se]
+2019-06-21 20:19:32,752 p=26602 u=vipicm |   ___________________________________________________________
+< TASK [bootstrap : Copying ssh key to destination server.] >
+ -----------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:19:52,173 p=26602 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:19:52,234 p=26602 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-21 20:19:52,472 p=26602 u=vipicm |  changed: [de-2200.d.ipeer.se]
+2019-06-21 20:19:54,376 p=26602 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:19:54,459 p=26602 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:19:54,521 p=26602 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:19:54,526 p=26602 u=vipicm |  abouttime-ftp01.v.ipeer.se : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:19:54,527 p=26602 u=vipicm |  abouttime-tw-db1901.v.ipeer.se : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:19:54,527 p=26602 u=vipicm |  abouttime-tw-web1901.v.ipeer.se : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:19:54,527 p=26602 u=vipicm |  de-1675.d.ipeer.se         : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:19:54,527 p=26602 u=vipicm |  de-2200.d.ipeer.se         : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:20:13,817 p=26953 u=vipicm |   [WARNING]:  * Failed to parse /home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories/hosts with yaml plugin: Syntax Error while loading
+YAML.   did not find expected <document start>  The error appears to be in
+'/home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories/hosts': line 2, column 1, but may be elsewhere in the file depending on the exact
+syntax problem.  The offending line appears to be:  [About Time AB] de-1675.d.ipeer.se ^ here
+
+2019-06-21 20:20:13,819 p=26953 u=vipicm |   [WARNING]:  * Failed to parse /home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories/hosts with ini plugin:
+/home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories/hosts:1: Invalid section entry: '[About Time AB]'. Please make sure that there are
+no spacesin the section entry, and that there are no other invalid characters
+
+2019-06-21 20:20:13,820 p=26953 u=vipicm |   [WARNING]: Unable to parse /home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories/hosts as an inventory source
+
+2019-06-21 20:20:13,821 p=26953 u=vipicm |   [WARNING]: Unable to parse /home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories as an inventory source
+
+2019-06-21 20:20:13,822 p=26953 u=vipicm |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-06-21 20:20:13,824 p=26953 u=vipicm |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-06-21 20:20:14,405 p=26953 u=vipicm |   [WARNING]: Could not match supplied host pattern, ignoring: REAL_anno_1991_AB
+
+2019-06-21 20:20:14,430 p=26953 u=vipicm |   __________________________
+< PLAY [REAL_anno_1991_AB] >
+ --------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:20:14,433 p=26953 u=vipicm |  skipping: no hosts matched
+2019-06-21 20:20:14,485 p=26953 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:20:48,322 p=26988 u=vipicm |   [WARNING]:  * Failed to parse /home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories/hosts with yaml plugin: Syntax Error while loading
+YAML.   did not find expected <document start>  The error appears to be in
+'/home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories/hosts': line 2, column 1, but may be elsewhere in the file depending on the exact
+syntax problem.  The offending line appears to be:  [About Time AB] de-1675.d.ipeer.se ^ here
+
+2019-06-21 20:20:48,323 p=26988 u=vipicm |   [WARNING]:  * Failed to parse /home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories/hosts with ini plugin:
+/home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories/hosts:1: Invalid section entry: '[About Time AB]'. Please make sure that there are
+no spacesin the section entry, and that there are no other invalid characters
+
+2019-06-21 20:20:48,324 p=26988 u=vipicm |   [WARNING]: Unable to parse /home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories/hosts as an inventory source
+
+2019-06-21 20:20:48,326 p=26988 u=vipicm |   [WARNING]: Unable to parse /home/vipicm/Documents/project/ansible_projects/os_maintenance/inventories as an inventory source
+
+2019-06-21 20:20:48,326 p=26988 u=vipicm |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2019-06-21 20:20:48,329 p=26988 u=vipicm |   [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2019-06-21 20:20:49,033 p=26988 u=vipicm |   [WARNING]: Could not match supplied host pattern, ignoring: About
+
+2019-06-21 20:20:49,034 p=26988 u=vipicm |   [WARNING]: Could not match supplied host pattern, ignoring: Time
+
+2019-06-21 20:20:49,035 p=26988 u=vipicm |   [WARNING]: Could not match supplied host pattern, ignoring: AB
+
+2019-06-21 20:20:49,085 p=26988 u=vipicm |   ______________________
+< PLAY [About Time AB] >
+ ----------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:20:49,087 p=26988 u=vipicm |  skipping: no hosts matched
+2019-06-21 20:20:49,138 p=26988 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:21:25,756 p=27019 u=vipicm |   ______________________
+< PLAY [About_Time_AB] >
+ ----------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:21:25,827 p=27019 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:21:49,045 p=27019 u=vipicm |  ok: [de-1675.d.ipeer.se]
+2019-06-21 20:21:49,545 p=27019 u=vipicm |  ok: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:21:49,699 p=27019 u=vipicm |  ok: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:21:50,160 p=27019 u=vipicm |  ok: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:21:50,238 p=27019 u=vipicm |   ____________________________________________
+< TASK [report : Collecting memory details.] >
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:22:07,280 p=27019 u=vipicm |  fatal: [abouttime-ftp01.v.ipeer.se]: FAILED! => {"changed": true, "msg": "non-zero return code", "rc": 1, "stderr": "Connection to abouttime-ftp01.v.ipeer.se closed.\r\n", "stderr_lines": ["Connection to abouttime-ftp01.v.ipeer.se closed."], "stdout": "\u001b[1m \u001b[31m bc is not installed, please install. \u001b(B\u001b[0m\r\n", "stdout_lines": ["\u001b[1m \u001b[31m bc is not installed, please install. \u001b(B\u001b[0m"]}
+2019-06-21 20:22:12,260 p=27019 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:22:12,510 p=27019 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:22:12,612 p=27019 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-21 20:22:12,719 p=27019 u=vipicm |   ______________________________________
+< TASK [report : Getting the HOSTNAME] >
+ --------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:22:31,803 p=27019 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:22:32,073 p=27019 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:22:34,737 p=27019 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-21 20:22:34,809 p=27019 u=vipicm |   _____________________________________________________
+< TASK [report : Fetching the output to local system] >
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:22:51,824 p=27019 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-21 20:22:53,420 p=27019 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:22:53,968 p=27019 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:22:53,997 p=27019 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:22:53,998 p=27019 u=vipicm |  abouttime-ftp01.v.ipeer.se : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:22:53,999 p=27019 u=vipicm |  abouttime-tw-db1901.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:22:54,000 p=27019 u=vipicm |  abouttime-tw-web1901.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:22:54,000 p=27019 u=vipicm |  de-1675.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:23:14,995 p=27441 u=vipicm |   ______________________
+< PLAY [About_Time_AB] >
+ ----------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:23:15,065 p=27441 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:23:39,693 p=27441 u=vipicm |  ok: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:23:39,933 p=27441 u=vipicm |  ok: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:23:41,624 p=27441 u=vipicm |  ok: [de-1675.d.ipeer.se]
+2019-06-21 20:23:49,481 p=27441 u=vipicm |  ok: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:23:49,697 p=27441 u=vipicm |   ____________________________________________
+< TASK [report : Collecting memory details.] >
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:24:07,193 p=27441 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:24:09,020 p=27441 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-21 20:24:10,632 p=27441 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:24:11,367 p=27441 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:24:11,519 p=27441 u=vipicm |   ______________________________________
+< TASK [report : Getting the HOSTNAME] >
+ --------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:24:29,064 p=27441 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:24:32,230 p=27441 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:24:34,648 p=27441 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-21 20:24:38,866 p=27441 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:24:39,377 p=27441 u=vipicm |   _____________________________________________________
+< TASK [report : Fetching the output to local system] >
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:24:56,720 p=27441 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:24:56,787 p=27441 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-21 20:24:58,876 p=27441 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:24:59,423 p=27441 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:24:59,481 p=27441 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:24:59,486 p=27441 u=vipicm |  abouttime-ftp01.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:24:59,486 p=27441 u=vipicm |  abouttime-tw-db1901.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:24:59,487 p=27441 u=vipicm |  abouttime-tw-web1901.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:24:59,487 p=27441 u=vipicm |  de-1675.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:26:31,543 p=27935 u=vipicm |   ____________
+< PLAY [all] >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:26:31,582 p=27935 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:26:59,928 p=27935 u=vipicm |  ok: [de-2200.d.ipeer.se]
+2019-06-21 20:27:02,000 p=27935 u=vipicm |  ok: [de-2564.d.ipeer.se]
+2019-06-21 20:27:08,613 p=27935 u=vipicm |  ok: [de-2201.d.ipeer.se]
+2019-06-21 20:27:08,652 p=27935 u=vipicm |  ok: [de-2565.d.ipeer.se]
+2019-06-21 20:27:12,935 p=27935 u=vipicm |  ok: [de-2539.d.ipeer.se]
+2019-06-21 20:27:19,547 p=27935 u=vipicm |  ok: [de-1675.d.ipeer.se]
+2019-06-21 20:27:22,134 p=27935 u=vipicm |  ok: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:27:26,503 p=27935 u=vipicm |  ok: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:27:33,144 p=27935 u=vipicm |  ok: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:27:33,293 p=27935 u=vipicm |   ___________________________________________________________
+< TASK [bootstrap : Copying ssh key to destination server.] >
+ -----------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:27:51,132 p=27935 u=vipicm |  ok: [de-2200.d.ipeer.se]
+2019-06-21 20:27:55,930 p=27935 u=vipicm |  changed: [de-2201.d.ipeer.se]
+2019-06-21 20:27:56,475 p=27935 u=vipicm |  changed: [de-2539.d.ipeer.se]
+2019-06-21 20:27:57,448 p=27935 u=vipicm |  changed: [de-2564.d.ipeer.se]
+2019-06-21 20:28:03,004 p=27935 u=vipicm |  changed: [de-2565.d.ipeer.se]
+2019-06-21 20:28:09,992 p=27935 u=vipicm |  ok: [de-1675.d.ipeer.se]
+2019-06-21 20:28:13,722 p=27935 u=vipicm |  ok: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:28:16,860 p=27935 u=vipicm |  ok: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:28:17,084 p=27935 u=vipicm |  ok: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:28:17,145 p=27935 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:28:17,150 p=27935 u=vipicm |  abouttime-ftp01.v.ipeer.se : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:28:17,151 p=27935 u=vipicm |  abouttime-tw-db1901.v.ipeer.se : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:28:17,151 p=27935 u=vipicm |  abouttime-tw-web1901.v.ipeer.se : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:28:17,152 p=27935 u=vipicm |  de-1675.d.ipeer.se         : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:28:17,152 p=27935 u=vipicm |  de-2200.d.ipeer.se         : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:28:17,153 p=27935 u=vipicm |  de-2201.d.ipeer.se         : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:28:17,153 p=27935 u=vipicm |  de-2539.d.ipeer.se         : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:28:17,153 p=27935 u=vipicm |  de-2564.d.ipeer.se         : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:28:17,153 p=27935 u=vipicm |  de-2565.d.ipeer.se         : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:28:51,691 p=28535 u=vipicm |   ____________
+< PLAY [all] >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:28:51,766 p=28535 u=vipicm |   ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:29:15,396 p=28535 u=vipicm |  ok: [de-2564.d.ipeer.se]
+2019-06-21 20:29:15,772 p=28535 u=vipicm |  ok: [de-2200.d.ipeer.se]
+2019-06-21 20:29:15,952 p=28535 u=vipicm |  ok: [de-2565.d.ipeer.se]
+2019-06-21 20:29:15,983 p=28535 u=vipicm |  ok: [de-2201.d.ipeer.se]
+2019-06-21 20:29:21,752 p=28535 u=vipicm |  ok: [de-2539.d.ipeer.se]
+2019-06-21 20:29:36,573 p=28535 u=vipicm |  ok: [de-1675.d.ipeer.se]
+2019-06-21 20:29:37,590 p=28535 u=vipicm |  ok: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:29:40,645 p=28535 u=vipicm |  ok: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:29:43,062 p=28535 u=vipicm |  ok: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:29:43,146 p=28535 u=vipicm |   ____________________________________________
+< TASK [report : Collecting memory details.] >
+ --------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:30:01,185 p=28535 u=vipicm |  changed: [de-2564.d.ipeer.se]
+2019-06-21 20:30:01,718 p=28535 u=vipicm |  changed: [de-2565.d.ipeer.se]
+2019-06-21 20:30:02,155 p=28535 u=vipicm |  changed: [de-2200.d.ipeer.se]
+2019-06-21 20:30:02,818 p=28535 u=vipicm |  changed: [de-2201.d.ipeer.se]
+2019-06-21 20:30:04,216 p=28535 u=vipicm |  changed: [de-2539.d.ipeer.se]
+2019-06-21 20:30:18,956 p=28535 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:30:25,496 p=28535 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:30:28,212 p=28535 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:30:28,565 p=28535 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-21 20:30:28,713 p=28535 u=vipicm |   ______________________________________
+< TASK [report : Getting the HOSTNAME] >
+ --------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:30:44,699 p=28535 u=vipicm |  changed: [de-2564.d.ipeer.se]
+2019-06-21 20:30:46,012 p=28535 u=vipicm |  changed: [de-2565.d.ipeer.se]
+2019-06-21 20:30:46,476 p=28535 u=vipicm |  changed: [de-2200.d.ipeer.se]
+2019-06-21 20:30:46,721 p=28535 u=vipicm |  changed: [de-2201.d.ipeer.se]
+2019-06-21 20:30:48,764 p=28535 u=vipicm |  changed: [de-2539.d.ipeer.se]
+2019-06-21 20:31:02,970 p=28535 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:31:03,784 p=28535 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-21 20:31:06,373 p=28535 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:31:06,624 p=28535 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:31:06,786 p=28535 u=vipicm |   _____________________________________________________
+< TASK [report : Fetching the output to local system] >
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:31:22,948 p=28535 u=vipicm |  changed: [de-2564.d.ipeer.se]
+2019-06-21 20:31:23,025 p=28535 u=vipicm |  changed: [de-2565.d.ipeer.se]
+2019-06-21 20:31:23,886 p=28535 u=vipicm |  changed: [de-2200.d.ipeer.se]
+2019-06-21 20:31:23,967 p=28535 u=vipicm |  changed: [de-2201.d.ipeer.se]
+2019-06-21 20:31:26,759 p=28535 u=vipicm |  changed: [de-2539.d.ipeer.se]
+2019-06-21 20:31:39,728 p=28535 u=vipicm |  changed: [de-1675.d.ipeer.se]
+2019-06-21 20:31:39,972 p=28535 u=vipicm |  changed: [abouttime-ftp01.v.ipeer.se]
+2019-06-21 20:31:43,411 p=28535 u=vipicm |  changed: [abouttime-tw-db1901.v.ipeer.se]
+2019-06-21 20:31:43,417 p=28535 u=vipicm |  changed: [abouttime-tw-web1901.v.ipeer.se]
+2019-06-21 20:31:43,464 p=28535 u=vipicm |   ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+2019-06-21 20:31:43,466 p=28535 u=vipicm |  abouttime-ftp01.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:31:43,466 p=28535 u=vipicm |  abouttime-tw-db1901.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:31:43,467 p=28535 u=vipicm |  abouttime-tw-web1901.v.ipeer.se : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:31:43,467 p=28535 u=vipicm |  de-1675.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:31:43,467 p=28535 u=vipicm |  de-2200.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:31:43,467 p=28535 u=vipicm |  de-2201.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:31:43,469 p=28535 u=vipicm |  de-2539.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:31:43,469 p=28535 u=vipicm |  de-2564.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2019-06-21 20:31:43,469 p=28535 u=vipicm |  de-2565.d.ipeer.se         : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

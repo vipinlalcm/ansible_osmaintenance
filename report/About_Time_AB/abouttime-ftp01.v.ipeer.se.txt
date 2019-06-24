@@ -1,0 +1,25 @@
+
+======     OS Info        ======
+OS: Ubuntu 15.10
+Arch: x86_64
+Code name: wily
+Hostname: ubuntu-ftp1
+
+ubuntu-ftp1 is up-to-date.
+
+======     CPU Information  ======
+No of CPU Core(s) : 2
+model name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+cpu MHz		: 2294.471
+
+======     Memory Usage   ======
+Total Memory: 984 MB
+Free Memory: 843.648 MB
+Free Memory percentage: 85%
+
+Info: Memory usage on server ubuntu-ftp1 looks normal.
+
+======     Disk Usage     ======
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/dm-0        15G  2.2G   12G  16% /
+/dev/sda1       236M   51M  173M  23% /boot

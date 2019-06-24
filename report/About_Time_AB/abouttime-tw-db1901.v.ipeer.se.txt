@@ -1,0 +1,28 @@
+
+======     OS Info        ======
+OS: Ubuntu 18.04.2 LTS
+Arch: x86_64
+Code name: bionic
+Hostname: twdb1901
+
+10 Update(s) available to install. Please refer /tmp/updates.list for update info.
+
+======     CPU Information  ======
+No of CPU Core(s) : 8
+model name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+cpu MHz		: 2294.471
+
+======     Memory Usage   ======
+Total Memory: 64413 MB
+Free Memory: 43597.8 MB
+Free Memory percentage: 67%
+
+Info: Memory usage on server twdb1901 looks normal.
+
+======     Disk Usage     ======
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-root   15G  3.3G   11G  24% /
+/dev/sdc1                    252G  9.0G  231G   4% /mnt/backupdisk
+/dev/sdd1                     63G   52M   60G   1% /mnt/logdisk
+/dev/sdb1                    504G   77G  403G  16% /mnt/dbdisk
+/dev/sda1                    472M  278M  171M  62% /boot

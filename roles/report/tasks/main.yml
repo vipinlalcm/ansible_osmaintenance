@@ -1,24 +1,11 @@
-- name: Collecting memory details.
-  script: scripts/report1.sh
+- name: Runnig the resource collecting script.
+  script: scripts/report.sh
   args:
     executable: /bin/bash
 
 - name: Getting the HOSTNAME
   shell: hostname
   register: result
-#  register: output
-#
-#- name: Making customer directory
-#  file:
-#    path: "/tmp/{{ group_names[0] }}"
-#    state: directory
-#    force: yes
-#
-#- name: saving the output in localfile
-#  copy:
-#      content: "{{ output.stdout }}"
-#      dest: "/tmp/{{ group_names[0] }}/{{inventory_hostname}}.txt"
-#      force: yes
 
 - name: Fetching the output to local system
   fetch:

@@ -1,0 +1,35 @@
+
+======     OS Info        ======
+OS: Ubuntu 18.04.1 LTS
+Arch: x86_64
+Code name: bionic
+Hostname: de-2539
+
+206 Update(s) available to install. Please refer /tmp/updates.list for update info.
+
+======     CPU Information  ======
+No of CPU Core(s) : 16
+model name	: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+cpu MHz		: 1198.787
+
+======     Memory Usage   ======
+Total Memory: 64329 MB
+Free Memory: 37143.6 MB
+Free Memory percentage: 57%
+
+Info: Memory usage on server de-2539 looks normal.
+
+======     Disk Usage     ======
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/sda2                            548G  116G  406G  23% /
+213.180.79.81:/var/opt/filestorage   809G  456G  312G  60% /media/filestorage
+213.180.79.214:/var/opt/filestorage  1.6T  772G  732G  52% /media/filestorage2
+/dev/loop3                            90M   90M     0 100% /snap/core/6673
+/dev/loop1                            90M   90M     0 100% /snap/core/6818
+/dev/loop0                            89M   89M     0 100% /snap/core/6964
+
+Warning: de-2539 is almost reached the disk limits "/dev/loop3 (100%)".
+
+Warning: de-2539 is almost reached the disk limits "/dev/loop1 (100%)".
+
+Warning: de-2539 is almost reached the disk limits "/dev/loop0 (100%)".
